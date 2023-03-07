@@ -3,3 +3,74 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1{
+  text-align: center;
+}
+img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  
+  
+}
+nav a{
+  padding: 5px 10px;
+  background-color: aquamarine;
+  text-decoration: none;
+  color: rgb(241, 241, 248);
+  padding: 5px 20px;
+  background-color: #881e1e;
+  margin-left: 5px;
+  border-radius: 20px;
+  
+  text-align: center;
+}
+#featured-property p{
+  font-size: 20pxpx;
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  
+}
+
+#details div{
+  float: left;
+  width: 25%;
+  background-color: #881e1e;
+  text-align: center;
+  
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#details a{
+  text-decoration: none;
+  color: white;
+}
+#details a:hover{
+  color: gray;
+}
+#details h3{
+  color: white;
+}
+#details p{
+  color: white;
+}
